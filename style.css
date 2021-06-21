@@ -73,6 +73,7 @@ p {
   height: 575px;
   display: flex;
   overflow: hidden;
+  margin-bottom: 140px;
 }
 #about-details img {
   position: relative;
@@ -91,4 +92,18 @@ p {
   letter-spacing: 1px;
   line-height: 30px;
   margin-bottom: 50px;
+}
+/*------ access -----*/
+#access {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#access p {
+  width: 680px;
+  line-height: 35px;
+}
+#access img {
+  margin: 100px 0;
 }
