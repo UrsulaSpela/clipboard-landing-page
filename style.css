@@ -125,15 +125,37 @@ p {
   margin-bottom: 40px;
 }
 #companies {
-  display: flex;
-  justify-content: space-evenly;
   margin-bottom: 150px;
+  padding: 0 70px 0 160px;
+}
+#companies img {
+  margin-right: 90px;
 }
 #download {
   text-align: center;
   padding: 0 380px;
+  margin-bottom: 150px;
+}
+#download p {
+  margin-bottom: 50px;
 }
 /*---- FOOTER ----*/
 footer {
-  text-align: center;
+  height: 150px;
+  background: hsl(204, 63%, 97%);
+  display: flex;
+  padding: 35px 160px;
+}
+footer img {
+  height: 55px;
+  width: 55px;
+}
+footer a {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+}
+footer i {
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
 }
